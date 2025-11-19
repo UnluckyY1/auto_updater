@@ -37,13 +37,12 @@ class AutoUpdater {
       _platform.setScheduledCheckInterval(interval);
 
   /// Checks for update information.
-  Future<void> checkForUpdateInformation() =>
-      _platform.checkForUpdateInformation();
+  // Future<void> checkForUpdateInformation() => _platform.checkForUpdateInformation();
 
   /// Cleans up the auto updater.
   ///
   /// Notes: this function is only available on Windows.
-  Future<void> cleanup() => _platform.cleanup();
+  // Future<void> cleanup() => _platform.cleanup();
 
   void _handleSparkleEvents(dynamic event) {
     final type = event['type'] as String;
