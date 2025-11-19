@@ -24,7 +24,7 @@ SignUpdateResult signUpdate(List<String> args) {
             '.plugin_symlinks',
             'auto_updater_windows',
             'windows',
-            'WinSparkle-0.8.3',
+            'WinSparkle-0.9.2',
             'bin',
             'sign_update.bat',
           ],
