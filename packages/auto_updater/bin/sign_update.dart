@@ -26,7 +26,7 @@ SignUpdateResult signUpdate(List<String> args) {
             'windows',
             'WinSparkle-0.9.2',
             'bin',
-            'sign_update.bat',
+            'legacy_sign_update.bat',
           ],
         );
   final List<String> arguments = List<String>.from(args);

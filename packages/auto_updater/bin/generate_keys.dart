@@ -21,7 +21,7 @@ Future<void> main(List<String> arguments) async {
             'windows',
             'WinSparkle-0.9.2',
             'bin',
-            'generate_keys.bat',
+            'legacy_generate_keys.bat',
           ],
         );
 
